@@ -1,0 +1,28 @@
+.place__paragraph {
+    margin: 0 auto;
+    padding: 0 16px 50px 16px;
+    min-width: 288px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    row-gap: 25px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 163%;
+}
+@media (min-width: 768px) {
+    .place__paragraph {
+        padding: 0;
+        margin: 0;
+        min-width: 352px;
+        grid-area: paragraph;
+    }
+}
+@media (min-width: 1024px) {
+    .place__paragraph {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 163%;
+    }
+}

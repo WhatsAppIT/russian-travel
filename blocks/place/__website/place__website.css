@@ -1,0 +1,17 @@
+.place__website {
+    padding-right: 16px;
+    padding-left: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    row-gap: 12px;
+}
+@media (min-width: 768px) {
+    .place__website {
+        padding: 0;
+        grid-area: website;
+        display: flex;
+        justify-content: flex-end;
+        align-content: flex-start;
+    }
+}

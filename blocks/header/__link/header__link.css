@@ -1,0 +1,16 @@
+.header__link {
+    display: flex;
+    justify-content: space-between;
+    gap: 18px;
+    padding-top: 30px;
+    max-width: 62px;
+}
+@media (min-width: 768px) {
+    .header__link {
+        max-width: 77px;
+        padding-top: 46px;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28px;
+    }
+}
